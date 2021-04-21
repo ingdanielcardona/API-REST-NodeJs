@@ -16,3 +16,4 @@ CustomerRepository.edit = (cedula, customer) => {
 CustomerRepository.delete = (cedula) => {
     return DB('customers').where({ id: cedula }).del()
 }
+
